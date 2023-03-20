@@ -6,11 +6,11 @@ import "./ExpenseItem.css";
 const ExpenseItem = (props) => {
   // function clickHandler() {}
   const [title, setTitle] = useState(props.title);
-  console.log("ExpenceItem Evaluated by React");
+  console.log("ExpenseItem Evaluated by React");
 
   const clickHandler = () => {
     setTitle("Updated!");
-    console.log(title);
+    // console.log(title);
   };
 
   return (
